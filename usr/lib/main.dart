@@ -190,7 +190,6 @@ class _LoginScreenState extends State<LoginScreen> {
                   children: [
                     const Text('Don\'t have an account?', style: TextStyle(color: Colors.grey)),
                     TextButton(
-                      onTheme: null,
                       onPressed: () {},
                       child: const Text('Register'),
                     ),
